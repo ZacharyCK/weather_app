@@ -31,15 +31,56 @@ button {
 
 .card {
     background: hsla(216, 96%, 56%, 1);
-
     background: linear-gradient(90deg, hsla(216, 96%, 56%, 1) 0%, hsla(178, 64%, 65%, 1) 100%);
-
     background: -moz-linear-gradient(90deg, hsla(216, 96%, 56%, 1) 0%, hsla(178, 64%, 65%, 1) 100%);
-
     background: -webkit-linear-gradient(90deg, hsla(216, 96%, 56%, 1) 0%, hsla(178, 64%, 65%, 1) 100%);
-
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2278FB", endColorstr="#6BDFDB", GradientType=1 );
-
     width: 490px;
     height: auto;
+    border-radius: 20px;
+    margin: 100px 35% 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 2em;
+    border-radius: 1em;
+    padding: 0 1em;
+    margin-right: 0.5em;
+}
+
+.search button {
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+}
+
+.search button img {
+    width: .65em;
+    height: auto;
+}
+
+.weather {
+    width: 60%;
+}
+
+.main-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0 1.5em;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
 }
