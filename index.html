@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
     <title>Weather App</title>
 </head>
     <body>
         <div class="card">
             <div class="search">
-                <input type="text" placeholder="enter city name" >
+                <input  id="city-search-box" type="text" list="cities" placeholder="enter city name" >
+                <datalist id="cities"></datalist>
                 <button><img src="images/search.png" alt="search-btn"></button>
             </div>
             <div class="weather">
